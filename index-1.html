@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Registration</h2>
+    <form action="/search" method="POST">
+        <ul>
+
+            <li>
+                <label> <span>Ваше имя</span>
+                    <input type="text" name="fName" id="fName">
+                </label>
+            </li>
+
+            <li>
+                <label> <span>Ваша фамилия</span>
+                    <input type="text" name="lName" id="lName">
+                </label>
+            </li>
+            <li>
+                <label> <span>Email:</span>
+                    <input type="email" name="uemail" id="uemail">
+                </label>
+            </li>
+            <li>
+                <label> <span>Пароль</span>
+                    <input type="password" name="upassword" id="upassword">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <span>Рассылка</span>
+                    <input type="checkbox" name="news" id="news">
+
+
+                </label>
+            </li>
+            <li>
+                <span>Пол:</span>
+                <input type="radio" name="sex" id="gender1">
+                <label for="gender1">Мужской</label>
+                <input type="radio" name="sex" id="gender2">
+                <label for="gender2">Женский</label>
+                <!-- <input type="radio" name="sex" id="gender3">
+                <label for="gender3">Лягушка</label> -->
+            </li>
+            <li id="btns">
+                <input type="submit" value="Зарегистрироваться" id="regBtn">
+                
+
+
+            </li>
+           
+        </ul>
+
+    </form>
+
+</body>
+
+</html>
